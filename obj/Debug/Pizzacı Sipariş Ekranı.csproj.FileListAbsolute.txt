@@ -1,0 +1,12 @@
+C:\Users\bekoo\Desktop\DERS\C# Uygulama\Pizzacı Sipariş Ekranı\Pizzacı Sipariş Ekranı\bin\Debug\Pizzacı Sipariş Ekranı.exe.config
+C:\Users\bekoo\Desktop\DERS\C# Uygulama\Pizzacı Sipariş Ekranı\Pizzacı Sipariş Ekranı\bin\Debug\Pizzacı Sipariş Ekranı.exe
+C:\Users\bekoo\Desktop\DERS\C# Uygulama\Pizzacı Sipariş Ekranı\Pizzacı Sipariş Ekranı\bin\Debug\Pizzacı Sipariş Ekranı.pdb
+C:\Users\bekoo\Desktop\DERS\C# Uygulama\Pizzacı Sipariş Ekranı\Pizzacı Sipariş Ekranı\obj\Debug\Pizzacı Sipariş Ekranı.csproj.AssemblyReference.cache
+C:\Users\bekoo\Desktop\DERS\C# Uygulama\Pizzacı Sipariş Ekranı\Pizzacı Sipariş Ekranı\obj\Debug\Pizzacı Sipariş Ekranı.csproj.SuggestedBindingRedirects.cache
+C:\Users\bekoo\Desktop\DERS\C# Uygulama\Pizzacı Sipariş Ekranı\Pizzacı Sipariş Ekranı\obj\Debug\Pizzacı_Sipariş_Ekranı.Form1.resources
+C:\Users\bekoo\Desktop\DERS\C# Uygulama\Pizzacı Sipariş Ekranı\Pizzacı Sipariş Ekranı\obj\Debug\Pizzacı_Sipariş_Ekranı.Properties.Resources.resources
+C:\Users\bekoo\Desktop\DERS\C# Uygulama\Pizzacı Sipariş Ekranı\Pizzacı Sipariş Ekranı\obj\Debug\Pizzacı Sipariş Ekranı.csproj.GenerateResource.cache
+C:\Users\bekoo\Desktop\DERS\C# Uygulama\Pizzacı Sipariş Ekranı\Pizzacı Sipariş Ekranı\obj\Debug\Pizzacı Sipariş Ekranı.csproj.CoreCompileInputs.cache
+C:\Users\bekoo\Desktop\DERS\C# Uygulama\Pizzacı Sipariş Ekranı\Pizzacı Sipariş Ekranı\obj\Debug\Pizzacı Sipariş Ekranı.exe
+C:\Users\bekoo\Desktop\DERS\C# Uygulama\Pizzacı Sipariş Ekranı\Pizzacı Sipariş Ekranı\obj\Debug\Pizzacı Sipariş Ekranı.pdb
+C:\Users\bekoo\Desktop\DERS\C# Uygulama\Pizzacı Sipariş Ekranı\Pizzacı Sipariş Ekranı\obj\Debug\Pizzacı_Sipariş_Ekranı.Hazır_Pizzalar_ve_Ekstralar.resources

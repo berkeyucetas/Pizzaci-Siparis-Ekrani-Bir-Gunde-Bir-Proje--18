@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EE37FF3A-92A0-46D1-B3B7-CF11BE602C6B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pizzacı_Sipariş_Ekranı</RootNamespace>
+    <AssemblyName>Pizzacı Sipariş Ekranı</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hazır Pizzalar ve Ekstralar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hazır Pizzalar ve Ekstralar.Designer.cs">
+      <DependentUpon>Hazır Pizzalar ve Ekstralar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hazır Pizzalar ve Ekstralar.resx">
+      <DependentUpon>Hazır Pizzalar ve Ekstralar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\big-king.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bk-steakhouse-burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheeseburger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken-royale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cikolatali-cookie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cikolata-parcacikli-cookie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dürüm %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dürüm %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dürüm %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dürüm %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dürüm %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dürüm %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etli-barbeku-brioche.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fav-burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fish-royale-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karısık.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kasarlı.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kavurmalı.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\king-beef-burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\king-chicken-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kofteburger-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kulah-dondurma-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pastırmalı.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %289%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2810%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2811%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2814%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2815%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2816%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2817%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2818%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2819%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2820%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2821%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2822%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2823%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2824%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza %2825%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzetta %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzetta %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzetta %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzetta %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzetta %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzetta %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzetta %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sucuklu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sufle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tavuklu-barbeku-brioche.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whopper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yumurtalı.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blackcolor.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
